@@ -9,64 +9,72 @@
 </head>
 
 <body>
-  <div>
+  <div class="head">
     <h1 id="title">Survey Form</h1>
     <p id="description">This is a Survey Form for feedback about our cafe.</p>
   </div>
   <div id="form-outer">
     <form id="survey-form" class="Survey Form" action="index.html" method="get">
-      <div class="labels">
-        <label id="name-label" for="Name">Name:</label>
-        <input type="text" name="name" id="name" placeholder="Enter Your Name" required><br>
-        <label id="email-label" for="email">Email:</label>
-        <input type="email" name="email" id="email" placeholder="Enter the email" required><br>
-        <label id="number-label" for="number">Age:</label>
-        <input type="number" name="number" id="number" placeholder="Enter Age " min="10" max="200" required><br>
-        Phone Number: <input type="text" name="Phone Number" pattern="[6-9]{1}[0-9]{9}" placeholder="Enter phone number" title="Phone number with 7-9 and remaing 9 digit with 0-9"><br>
+      <div class="rowtabs">
+        <div class="labels">
+          <label id="name-label" for="Name">Name:  </label>
+          <input type="text" class="input-block" name="name" id="name" placeholder="Enter Your Name" required><br>
+          <label id="email-label" for="email">Email:</label>
+          <input type="email" class="input-block" name="email" id="email" placeholder="Enter the email" required><br>
+          <label id="number-label" for="number">Specifiy Your Age:</label>
+          <input type="number" class="input-block" name="number" id="number" placeholder="Enter Age " min="10" max="200" required><br>
+          Phone Number: <input type="text" class="input-block" name="Phone Number" pattern="[6-9]{1}[0-9]{9}" placeholder="Enter phone number" title="Phone number with 7-9 and remaing 9 digit with 0-9"><br>
+        </div>
       </div>
-
-      <div class="labels">
-        <label for="role">* How likely is that you would recommend our cafe to a friend?</label>
-        <ul style="list-style: none;">
-          <li><input type="radio" name="role" value="Definitely">Definitely<br></li>
-          <li><input type="radio" name="role" value="Yaa, Maybe"> Yaa, Maybe<br></li>
-          <li><input type="radio" name="role" value="Not Sure">Not Sure<br></li>
-        </ul>
+      <div class="rowtabs">
+        <div class="labels">
+          <label for="role">How likely is that you would recommend our cafe to a friend?</label>
+          <ul style="list-style: none;">
+            <li><input type="radio" name="role" value="Definitely">Definitely<br></li>
+            <li><input type="radio" name="role" value="Yaa, Maybe"> Yaa, Maybe<br></li>
+            <li><input type="radio" name="role" value="Not Sure">Not Sure<br></li>
+          </ul>
+        </div>
       </div>
-
-      <div class="labels">
-        <label for="role">What are things you like about us?</label>
-        <ul class="checkbox" style="list-style: none;">
-          <li><input type="checkbox" name="liking" value="food">Food<br></li>
-          <li><input type="checkbox" name="liking" value="Ambience">Ambience<br>
-          <li><input type="checkbox" name="liking" value="Music">Music<br>
-          <li><input type="checkbox" name="liking" value="Location">Location<br>
-        </ul>
+      <div class="rowtabs">
+        <div class="labels">
+          <label for="role">What are things you like about us?</label>
+          <ul c style="list-style: none;">
+            <li><input type="checkbox" name="liking" value="food">Food<br></li>
+            <li><input type="checkbox" name="liking" value="Ambience">Ambience<br>
+            <li><input type="checkbox" name="liking" value="Music">Music<br>
+            <li><input type="checkbox" name="liking" value="Location">Location<br>
+          </ul>
+        </div>
       </div>
-      <div class="labels">
-        <label for="dropdown menu">Select whom you hangout with i our cafe</label>
-        <select id="dropdown" class="" name="select an option">
-          <option disabled selected>Select an option</option>
-          <option value="friends">Friends</option>
-          <option value="family">Family</option>
-          <option value="collegues">Collegues</option>
-        </select><br>
+      <div class="rowtabs">
+        <div class="labels">
+          <label for="dropdown menu">Select whom you hangout with i our cafe</label>
+          <select id="dropdown" class="dropdown" name="select an option">
+            <option disabled selected>Select an option</option>
+            <option value="friends">Friends</option>
+            <option value="family">Family</option>
+            <option value="collegues">Collegues</option>
+          </select><br>
+        </div>
       </div>
-
-      <div class="labels">
-        <label for="user rating">How Satisfied are you with our services?</label>
-        <ul style="list-style: none;">
-          <li><input type="radio" name="liking" value="Very satisfied">Very satisfied<br></li>
-          <li><input type="radio" name="liking" value="Satisfied">Satisfied<br>
-          <li><input type="radio" name="liking" value="Neutral">Neutral<br>
-          <li><input type="radio" name="liking" value="Dissatisfied">Dissatisfied<br>
-          <li><input type="radio" name="liking" value="Very Dissatisfied">Very Dissatisfied<br>
+      <div class="rowtabs">
+        <div class="labels">
+          <label for="user rating">How Satisfied are you with our services?</label>
+          <ul style="list-style: none;">
+            <li><input type="radio" name="liking" value="Very satisfied">Very satisfied<br></li>
+            <li><input type="radio" name="liking" value="Satisfied">Satisfied<br>
+            <li><input type="radio" name="liking" value="Neutral">Neutral<br>
+            <li><input type="radio" name="liking" value="Dissatisfied">Dissatisfied<br>
+            <li><input type="radio" name="liking" value="Very Dissatisfied">Very Dissatisfied<br>
+        </div>
       </div>
-      <div class="labels">
-        <label for="">Any Suggestions to help us get better</label>
-        <textarea id="comments" class="input-field" name="comment" placeholder="Enter your comment here..."></textarea>
+      <div class="rowtabs">
+        <div class="labels">
+          <label for="">Any Suggestions to help us get better</label>
+          <textarea id="comments" class="input-field" style="height:50px;width:250px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+        </div>
       </div>
-
       <div>
         <button type="submit" id="submit" value="Submit">Submit</button>
       </div>
