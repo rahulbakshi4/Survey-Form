@@ -1,18 +1,22 @@
 html, body {
   text-align: center;
-  background-color: #a2a8d3;
+  background: url("bar-bar-cafe-cafeteria-430195.jpg") no-repeat fixed center;
+  background-size: cover;
   font-family: cursive;
-  min-width: 320px;
+  height: 100%;
 }
 
 .head {
+  color: #33313b;
   font-size: 2em;
   font-weight: bold;
-  margin: 20px;
+  font-family: 'Satisfy', cursive;
+  margin: 0px 350px;
+  background: rgba(255, 189, 57, 0.7);
 }
 
 #form-outer {
-  background-color: #e7eaf6;
+  background-color: rgba(255, 189, 57, 0.9);
   margin: 0 auto;
   border-radius: 4px;
   width: 75%;
@@ -31,7 +35,7 @@ html, body {
 }
 
 #submit {
-  background-color: #a2a8d3;
+  background-color: #ff502f;
   border-radius: 4px;
   color: black;
   font-size: 1em;
@@ -48,4 +52,27 @@ html, body {
   margin: 10px;
   border: 1px solid #c0c0c0;
   border-radius: 2px;
+}
+
+textarea {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+select {
+  margin-top: 10px;
+  margin-left: 46px;
+  margin-right: auto;
+  display: inline-block;
+}
+
+#dropdown {
+  padding: 5px 0px;
+}
+
+h4{
+  background: rgba(255, 189, 57, 0.7);
+  margin: 20px 550px;
 }
