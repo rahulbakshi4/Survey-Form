@@ -76,3 +76,264 @@ h4{
   background: rgba(255, 189, 57, 0.7);
   margin: 20px 550px;
 }
+
+@media screen and (min-width:480px) {
+
+  .head {
+    color: #33313b;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Satisfy', cursive;
+    margin: 0px 60px;
+    background: rgba(255, 189, 57, 0.7);
+  }
+  #form-outer {
+    background-color: rgba(255, 189, 57, 0.9);
+    margin: 0 auto;
+    border-radius: 4px;
+    width: 75%;
+    max-width: 900px;
+    padding: 60px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+h4{
+  font-size:25px;
+  background: rgba(255, 189, 57, 0.7);
+  margin: 60px 60px;
+}
+.labels {
+  font-size: 22px;
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  padding: 10px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.input-block {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+#dropdown {
+  padding: 10px 5px;
+}
+#submit {
+  background-color: #ff502f;
+  border-radius: 4px;
+  color: black;
+  font-size: 24px;
+  height: 50px;
+  width: 120px;
+  margin: 30px;
+  border: 0px solid;
+}
+textarea {
+  font-size:15px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+}
+
+@media screen and (min-width:480px) {
+
+  .head {
+    color: #33313b;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Satisfy', cursive;
+    margin: 0px 60px;
+    background: rgba(255, 189, 57, 0.7);
+  }
+  #form-outer {
+    background-color: rgba(255, 189, 57, 0.9);
+    margin: 0 auto;
+    border-radius: 4px;
+    width: 75%;
+    max-width: 900px;
+    padding: 60px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+h4{
+  font-size:25px;
+  background: rgba(255, 189, 57, 0.7);
+  margin: 60px 60px;
+}
+.labels {
+  font-size: 22px;
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  padding: 10px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.input-block {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+#dropdown {
+  padding: 10px 5px;
+}
+#submit {
+  background-color: #ff502f;
+  border-radius: 4px;
+  color: black;
+  font-size: 24px;
+  height: 50px;
+  width: 120px;
+  margin: 30px;
+  border: 0px solid;
+}
+textarea {
+  font-size:15px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media screen and (min-width:480px) {
+
+  .head {
+    color: #33313b;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Satisfy', cursive;
+    margin: 0px 60px;
+    background: rgba(255, 189, 57, 0.7);
+  }
+  #form-outer {
+    background-color: rgba(255, 189, 57, 0.9);
+    margin: 0 auto;
+    border-radius: 4px;
+    width: 75%;
+    max-width: 900px;
+    padding: 60px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+h4{
+  font-size:25px;
+  background: rgba(255, 189, 57, 0.7);
+  margin: 60px 60px;
+}
+.labels {
+  font-size: 22px;
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  padding: 10px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.input-block {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+#dropdown {
+  padding: 10px 5px;
+}
+#submit {
+  background-color: #ff502f;
+  border-radius: 4px;
+  color: black;
+  font-size: 24px;
+  height: 50px;
+  width: 120px;
+  margin: 30px;
+  border: 0px solid;
+}
+textarea {
+  font-size:15px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+@media screen and (min-width:480px) {
+
+  .head {
+    color: #33313b;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Satisfy', cursive;
+    margin: 0px 60px;
+    background: rgba(255, 189, 57, 0.7);
+  }
+  #form-outer {
+    background-color: rgba(255, 189, 57, 0.9);
+    margin: 0 auto;
+    border-radius: 4px;
+    width: 75%;
+    max-width: 900px;
+    padding: 60px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+h4{
+  font-size:25px;
+  background: rgba(255, 189, 57, 0.7);
+  margin: 60px 60px;
+}
+.labels {
+  font-size: 22px;
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  padding: 10px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.input-block {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+#dropdown {
+  padding: 10px 5px;
+}
+#submit {
+  background-color: #ff502f;
+  border-radius: 4px;
+  color: black;
+  font-size: 24px;
+  height: 50px;
+  width: 120px;
+  margin: 30px;
+  border: 0px solid;
+}
+textarea {
+  font-size:15px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+}
